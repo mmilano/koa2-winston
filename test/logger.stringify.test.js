@@ -1,4 +1,5 @@
-import test from 'ava';
+// import test from 'ava';
+const test = require('ava');
 
 const Koa = require('koa');
 const bodyParser = require('koa-bodyparser');
