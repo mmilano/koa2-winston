@@ -12,7 +12,7 @@
     "release": "standard-version",
     "bench": "node bench/simple.js | grep 'ops'",
     "nyc": "nyc ava && nyc report",
-    "test": "nyc ava"
+    "test": "nyc ava --verbose"
   },
   "ava": {
     "files": [
@@ -47,7 +47,7 @@
   },
   "devDependencies": {
     "@types/node": "^14.0.14",
-    "ava": "^2.2.0",
+    "ava": "^3.9.0",
     "benchmark": "^2.1.4",
     "documentation": "^13.0.1",
     "eslint": "^7.3.1",
