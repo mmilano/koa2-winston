@@ -1,6 +1,6 @@
 {
   "name": "koa2-winston",
-  "version": "3.1.1",
+  "version": "3.2.1",
   "description": "koa2 version winston logger like express-winston",
   "main": "index.js",
   "engines": {
@@ -37,29 +37,29 @@
   },
   "homepage": "https://github.com/yidinghan/koa2-winston#readme",
   "dependencies": {
-    "fast-json-stringify": "^1.15.3",
+    "fast-json-stringify": "^2.2.1",
     "lodash.clonedeep": "^4.5.0",
     "lodash.get": "^4.4.2",
     "lodash.mapvalues": "^4.6.0",
     "lodash.set": "^4.3.2",
     "on-finished": "^2.3.0",
-    "winston": "^3.2.1"
+    "winston": "^3.3.3"
   },
   "devDependencies": {
-    "@types/node": "^12.6.8",
+    "@types/node": "^14.0.14",
     "ava": "^2.2.0",
     "benchmark": "^2.1.4",
-    "documentation": "^12.0.2",
-    "eslint": "^6.1.0",
-    "eslint-config-airbnb-base": "^13.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "koa": "^2.7.0",
-    "koa-bodyparser": "^4.2.1",
+    "documentation": "^13.0.1",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
     "lodash": "^4.17.15",
     "lodash.assign": "^4.2.0",
-    "nyc": "^14.1.1",
+    "nyc": "^15.1.0",
     "supertest": "^4.0.2",
     "triple-beam": "^1.3.0",
-    "winston-transport": "^4.3.0"
+    "winston-transport": "^4.4.0"
   }
 }
