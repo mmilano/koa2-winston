@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yidinghan/koa2-winston.git"
+    "url": "git+https://github.com/mmilano/koa2-winston"
   },
   "keywords": [
     "koa",
